@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BBF86F3172B05A778696DA /* libPods-IlliniSignInDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A299596FEA9E13943C6C6E3 /* libPods-IlliniSignInDemoTests.a */; };
+		0E066FFA1A81E152006EEE68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E066FF91A81E152006EEE68 /* main.m */; };
+		0E066FFD1A81E152006EEE68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E066FFC1A81E152006EEE68 /* AppDelegate.m */; };
+		0E0670001A81E152006EEE68 /* IlliniSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E066FFF1A81E152006EEE68 /* IlliniSignInViewController.m */; };
+		0E0670031A81E152006EEE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0670011A81E152006EEE68 /* Main.storyboard */; };
+		0E0670051A81E152006EEE68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0670041A81E152006EEE68 /* Images.xcassets */; };
+		0E0670081A81E152006EEE68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0670061A81E152006EEE68 /* LaunchScreen.xib */; };
+		0E0670141A81E152006EEE68 /* IlliniSignInDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0670131A81E152006EEE68 /* IlliniSignInDemoTests.m */; };
+		0E06701F1A81EEDB006EEE68 /* GooglePlusSignInApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E06701E1A81EEDB006EEE68 /* GooglePlusSignInApplication.m */; };
+		11AF857CD435FBFBE0DD2A71 /* libPods-IlliniSignInDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CC5CDBCBCB48AFB688BBAF /* libPods-IlliniSignInDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E06700E1A81E152006EEE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E066FEC1A81E152006EEE68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E066FF31A81E152006EEE68;
+			remoteInfo = IlliniSignInDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E066FF41A81E152006EEE68 /* IlliniSignInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlliniSignInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E066FF81A81E152006EEE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E066FF91A81E152006EEE68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E066FFB1A81E152006EEE68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E066FFC1A81E152006EEE68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E066FFE1A81E152006EEE68 /* IlliniSignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IlliniSignInViewController.h; sourceTree = "<group>"; };
+		0E066FFF1A81E152006EEE68 /* IlliniSignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlliniSignInViewController.m; sourceTree = "<group>"; };
+		0E0670021A81E152006EEE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E0670041A81E152006EEE68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0E0670071A81E152006EEE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0E06700D1A81E152006EEE68 /* IlliniSignInDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlliniSignInDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E0670121A81E152006EEE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E0670131A81E152006EEE68 /* IlliniSignInDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlliniSignInDemoTests.m; sourceTree = "<group>"; };
+		0E06701D1A81EEDB006EEE68 /* GooglePlusSignInApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlusSignInApplication.h; sourceTree = "<group>"; };
+		0E06701E1A81EEDB006EEE68 /* GooglePlusSignInApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlusSignInApplication.m; sourceTree = "<group>"; };
+		34F924498FDB127322D20B35 /* Pods-IlliniSignInDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IlliniSignInDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IlliniSignInDemo/Pods-IlliniSignInDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		52CC5CDBCBCB48AFB688BBAF /* libPods-IlliniSignInDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IlliniSignInDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A299596FEA9E13943C6C6E3 /* libPods-IlliniSignInDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IlliniSignInDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B077BA93837AF6BFF0DF98 /* Pods-IlliniSignInDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IlliniSignInDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IlliniSignInDemoTests/Pods-IlliniSignInDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE09425D07B442C10654C32 /* Pods-IlliniSignInDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IlliniSignInDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IlliniSignInDemo/Pods-IlliniSignInDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BF2F785312A04523686CF264 /* Pods-IlliniSignInDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IlliniSignInDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IlliniSignInDemoTests/Pods-IlliniSignInDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E066FF11A81E152006EEE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AF857CD435FBFBE0DD2A71 /* libPods-IlliniSignInDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E06700A1A81E152006EEE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BBF86F3172B05A778696DA /* libPods-IlliniSignInDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E066FEB1A81E152006EEE68 = {
+			isa = PBXGroup;
+			children = (
+				0E066FF61A81E152006EEE68 /* IlliniSignInDemo */,
+				0E0670101A81E152006EEE68 /* IlliniSignInDemoTests */,
+				0E066FF51A81E152006EEE68 /* Products */,
+				B2ED47219B21755A0D9A64FD /* Pods */,
+				9B13E245821C239A6383A806 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E066FF51A81E152006EEE68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E066FF41A81E152006EEE68 /* IlliniSignInDemo.app */,
+				0E06700D1A81E152006EEE68 /* IlliniSignInDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E066FF61A81E152006EEE68 /* IlliniSignInDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0E066FFB1A81E152006EEE68 /* AppDelegate.h */,
+				0E066FFC1A81E152006EEE68 /* AppDelegate.m */,
+				0E06701D1A81EEDB006EEE68 /* GooglePlusSignInApplication.h */,
+				0E06701E1A81EEDB006EEE68 /* GooglePlusSignInApplication.m */,
+				0E066FFE1A81E152006EEE68 /* IlliniSignInViewController.h */,
+				0E066FFF1A81E152006EEE68 /* IlliniSignInViewController.m */,
+				0E0670041A81E152006EEE68 /* Images.xcassets */,
+				0E0670061A81E152006EEE68 /* LaunchScreen.xib */,
+				0E0670011A81E152006EEE68 /* Main.storyboard */,
+				0E066FF71A81E152006EEE68 /* Supporting Files */,
+			);
+			path = IlliniSignInDemo;
+			sourceTree = "<group>";
+		};
+		0E066FF71A81E152006EEE68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E066FF81A81E152006EEE68 /* Info.plist */,
+				0E066FF91A81E152006EEE68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E0670101A81E152006EEE68 /* IlliniSignInDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E0670131A81E152006EEE68 /* IlliniSignInDemoTests.m */,
+				0E0670111A81E152006EEE68 /* Supporting Files */,
+			);
+			path = IlliniSignInDemoTests;
+			sourceTree = "<group>";
+		};
+		0E0670111A81E152006EEE68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E0670121A81E152006EEE68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B13E245821C239A6383A806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52CC5CDBCBCB48AFB688BBAF /* libPods-IlliniSignInDemo.a */,
+				7A299596FEA9E13943C6C6E3 /* libPods-IlliniSignInDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2ED47219B21755A0D9A64FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34F924498FDB127322D20B35 /* Pods-IlliniSignInDemo.debug.xcconfig */,
+				BCE09425D07B442C10654C32 /* Pods-IlliniSignInDemo.release.xcconfig */,
+				91B077BA93837AF6BFF0DF98 /* Pods-IlliniSignInDemoTests.debug.xcconfig */,
+				BF2F785312A04523686CF264 /* Pods-IlliniSignInDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E066FF31A81E152006EEE68 /* IlliniSignInDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E0670171A81E152006EEE68 /* Build configuration list for PBXNativeTarget "IlliniSignInDemo" */;
+			buildPhases = (
+				55FF29454FDE1425B39B1D4D /* Check Pods Manifest.lock */,
+				0E066FF01A81E152006EEE68 /* Sources */,
+				0E066FF11A81E152006EEE68 /* Frameworks */,
+				0E066FF21A81E152006EEE68 /* Resources */,
+				81ED482055281F02A9BB09F0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IlliniSignInDemo;
+			productName = IlliniSignInDemo;
+			productReference = 0E066FF41A81E152006EEE68 /* IlliniSignInDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E06700C1A81E152006EEE68 /* IlliniSignInDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E06701A1A81E152006EEE68 /* Build configuration list for PBXNativeTarget "IlliniSignInDemoTests" */;
+			buildPhases = (
+				ED8F326C2E93E8BC93D6AE14 /* Check Pods Manifest.lock */,
+				0E0670091A81E152006EEE68 /* Sources */,
+				0E06700A1A81E152006EEE68 /* Frameworks */,
+				0E06700B1A81E152006EEE68 /* Resources */,
+				9A33AD1D8663E61788F7028B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E06700F1A81E152006EEE68 /* PBXTargetDependency */,
+			);
+			name = IlliniSignInDemoTests;
+			productName = IlliniSignInDemoTests;
+			productReference = 0E06700D1A81E152006EEE68 /* IlliniSignInDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E066FEC1A81E152006EEE68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kevin Yufei Chen";
+				TargetAttributes = {
+					0E066FF31A81E152006EEE68 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0E06700C1A81E152006EEE68 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0E066FF31A81E152006EEE68;
+					};
+				};
+			};
+			buildConfigurationList = 0E066FEF1A81E152006EEE68 /* Build configuration list for PBXProject "IlliniSignInDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E066FEB1A81E152006EEE68;
+			productRefGroup = 0E066FF51A81E152006EEE68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E066FF31A81E152006EEE68 /* IlliniSignInDemo */,
+				0E06700C1A81E152006EEE68 /* IlliniSignInDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E066FF21A81E152006EEE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0670031A81E152006EEE68 /* Main.storyboard in Resources */,
+				0E0670081A81E152006EEE68 /* LaunchScreen.xib in Resources */,
+				0E0670051A81E152006EEE68 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E06700B1A81E152006EEE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55FF29454FDE1425B39B1D4D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81ED482055281F02A9BB09F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IlliniSignInDemo/Pods-IlliniSignInDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A33AD1D8663E61788F7028B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IlliniSignInDemoTests/Pods-IlliniSignInDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED8F326C2E93E8BC93D6AE14 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E066FF01A81E152006EEE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0670001A81E152006EEE68 /* IlliniSignInViewController.m in Sources */,
+				0E06701F1A81EEDB006EEE68 /* GooglePlusSignInApplication.m in Sources */,
+				0E066FFD1A81E152006EEE68 /* AppDelegate.m in Sources */,
+				0E066FFA1A81E152006EEE68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E0670091A81E152006EEE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0670141A81E152006EEE68 /* IlliniSignInDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E06700F1A81E152006EEE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E066FF31A81E152006EEE68 /* IlliniSignInDemo */;
+			targetProxy = 0E06700E1A81E152006EEE68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E0670011A81E152006EEE68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E0670021A81E152006EEE68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E0670061A81E152006EEE68 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E0670071A81E152006EEE68 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E0670151A81E152006EEE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E0670161A81E152006EEE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E0670181A81E152006EEE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F924498FDB127322D20B35 /* Pods-IlliniSignInDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IlliniSignInDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E0670191A81E152006EEE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE09425D07B442C10654C32 /* Pods-IlliniSignInDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IlliniSignInDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E06701B1A81E152006EEE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B077BA93837AF6BFF0DF98 /* Pods-IlliniSignInDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IlliniSignInDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IlliniSignInDemo.app/IlliniSignInDemo";
+			};
+			name = Debug;
+		};
+		0E06701C1A81E152006EEE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2F785312A04523686CF264 /* Pods-IlliniSignInDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IlliniSignInDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IlliniSignInDemo.app/IlliniSignInDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E066FEF1A81E152006EEE68 /* Build configuration list for PBXProject "IlliniSignInDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E0670151A81E152006EEE68 /* Debug */,
+				0E0670161A81E152006EEE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E0670171A81E152006EEE68 /* Build configuration list for PBXNativeTarget "IlliniSignInDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E0670181A81E152006EEE68 /* Debug */,
+				0E0670191A81E152006EEE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E06701A1A81E152006EEE68 /* Build configuration list for PBXNativeTarget "IlliniSignInDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E06701B1A81E152006EEE68 /* Debug */,
+				0E06701C1A81E152006EEE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E066FEC1A81E152006EEE68 /* Project object */;
+}
