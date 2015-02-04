@@ -2,7 +2,9 @@
 
 This is a demo to show you how to use [Google+ Sign In](https://developers.google.com/+/mobile/ios/sign-in) in order to let your users to sign in with their University Of Illinois credentials (NetID and AD Password). 
 
-Normally, sign in with NetID is powered by Shibboleth, which would require a seperate server and approval from CITES. To make the our (especially student developers) lives easier, a workaround would be taking the advantage of Google+ Sign In under OAuth protocol. Since the university's email service for undergraduate students at UIUC is provided by Google Apps, the standard Google Account Sign In page will redirect the user to the U of I's Shibboleth Log In page. This would offer users the best sign-in experience without dealing with Shibboleth. 
+Normally, sign in with NetID is powered by Shibboleth, which would require a seperate server and approval from CITES. To make the our (especially student developers) lives easier, a workaround would be taking the advantage of Google+ Sign In under OAuth protocol. Since the university's email service for undergraduate students is provided by Google Apps, the standard Google Account Sign In page will redirect the user to the U of I's Shibboleth Log In page. This would offer users the best sign-in experience without dealing with Shibboleth. 
+
+More importantly, Safari (or any other mobile browser) is not needed in this demo. All of the sign in process is handled by a ``UIWebView`` within the app. Otherwise, AppStore will **reject your app** if mobile Safari is involved. 
 
 ## How it works
 
