@@ -7,27 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01BBF86F3172B05A778696DA /* libPods-IlliniSignInDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A299596FEA9E13943C6C6E3 /* libPods-IlliniSignInDemoTests.a */; };
 		0E066FFA1A81E152006EEE68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E066FF91A81E152006EEE68 /* main.m */; };
 		0E066FFD1A81E152006EEE68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E066FFC1A81E152006EEE68 /* AppDelegate.m */; };
 		0E0670001A81E152006EEE68 /* IlliniSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E066FFF1A81E152006EEE68 /* IlliniSignInViewController.m */; };
 		0E0670031A81E152006EEE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0670011A81E152006EEE68 /* Main.storyboard */; };
 		0E0670051A81E152006EEE68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0670041A81E152006EEE68 /* Images.xcassets */; };
 		0E0670081A81E152006EEE68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0670061A81E152006EEE68 /* LaunchScreen.xib */; };
-		0E0670141A81E152006EEE68 /* IlliniSignInDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0670131A81E152006EEE68 /* IlliniSignInDemoTests.m */; };
 		0E06701F1A81EEDB006EEE68 /* GooglePlusSignInApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E06701E1A81EEDB006EEE68 /* GooglePlusSignInApplication.m */; };
 		11AF857CD435FBFBE0DD2A71 /* libPods-IlliniSignInDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CC5CDBCBCB48AFB688BBAF /* libPods-IlliniSignInDemo.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0E06700E1A81E152006EEE68 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E066FEC1A81E152006EEE68 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0E066FF31A81E152006EEE68;
-			remoteInfo = IlliniSignInDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0E066FF41A81E152006EEE68 /* IlliniSignInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlliniSignInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,7 +28,6 @@
 		0E0670021A81E152006EEE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E0670041A81E152006EEE68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0E0670071A81E152006EEE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0E06700D1A81E152006EEE68 /* IlliniSignInDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlliniSignInDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0670121A81E152006EEE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E0670131A81E152006EEE68 /* IlliniSignInDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlliniSignInDemoTests.m; sourceTree = "<group>"; };
 		0E06701D1A81EEDB006EEE68 /* GooglePlusSignInApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlusSignInApplication.h; sourceTree = "<group>"; };
@@ -62,14 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E06700A1A81E152006EEE68 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01BBF86F3172B05A778696DA /* libPods-IlliniSignInDemoTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				0E066FF41A81E152006EEE68 /* IlliniSignInDemo.app */,
-				0E06700D1A81E152006EEE68 /* IlliniSignInDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,26 +156,6 @@
 			productReference = 0E066FF41A81E152006EEE68 /* IlliniSignInDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0E06700C1A81E152006EEE68 /* IlliniSignInDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0E06701A1A81E152006EEE68 /* Build configuration list for PBXNativeTarget "IlliniSignInDemoTests" */;
-			buildPhases = (
-				ED8F326C2E93E8BC93D6AE14 /* Check Pods Manifest.lock */,
-				0E0670091A81E152006EEE68 /* Sources */,
-				0E06700A1A81E152006EEE68 /* Frameworks */,
-				0E06700B1A81E152006EEE68 /* Resources */,
-				9A33AD1D8663E61788F7028B /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0E06700F1A81E152006EEE68 /* PBXTargetDependency */,
-			);
-			name = IlliniSignInDemoTests;
-			productName = IlliniSignInDemoTests;
-			productReference = 0E06700D1A81E152006EEE68 /* IlliniSignInDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,10 +167,6 @@
 				TargetAttributes = {
 					0E066FF31A81E152006EEE68 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					0E06700C1A81E152006EEE68 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 0E066FF31A81E152006EEE68;
 					};
 				};
 			};
@@ -230,7 +184,6 @@
 			projectRoot = "";
 			targets = (
 				0E066FF31A81E152006EEE68 /* IlliniSignInDemo */,
-				0E06700C1A81E152006EEE68 /* IlliniSignInDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +196,6 @@
 				0E0670031A81E152006EEE68 /* Main.storyboard in Resources */,
 				0E0670081A81E152006EEE68 /* LaunchScreen.xib in Resources */,
 				0E0670051A81E152006EEE68 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0E06700B1A81E152006EEE68 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,36 +232,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IlliniSignInDemo/Pods-IlliniSignInDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9A33AD1D8663E61788F7028B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IlliniSignInDemoTests/Pods-IlliniSignInDemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED8F326C2E93E8BC93D6AE14 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -330,23 +246,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E0670091A81E152006EEE68 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E0670141A81E152006EEE68 /* IlliniSignInDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0E06700F1A81E152006EEE68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0E066FF31A81E152006EEE68 /* IlliniSignInDemo */;
-			targetProxy = 0E06700E1A81E152006EEE68 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0E0670011A81E152006EEE68 /* Main.storyboard */ = {
@@ -466,42 +366,6 @@
 			};
 			name = Release;
 		};
-		0E06701B1A81E152006EEE68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91B077BA93837AF6BFF0DF98 /* Pods-IlliniSignInDemoTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = IlliniSignInDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IlliniSignInDemo.app/IlliniSignInDemo";
-			};
-			name = Debug;
-		};
-		0E06701C1A81E152006EEE68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF2F785312A04523686CF264 /* Pods-IlliniSignInDemoTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = IlliniSignInDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IlliniSignInDemo.app/IlliniSignInDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -519,15 +383,6 @@
 			buildConfigurations = (
 				0E0670181A81E152006EEE68 /* Debug */,
 				0E0670191A81E152006EEE68 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0E06701A1A81E152006EEE68 /* Build configuration list for PBXNativeTarget "IlliniSignInDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0E06701B1A81E152006EEE68 /* Debug */,
-				0E06701C1A81E152006EEE68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

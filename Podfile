@@ -2,10 +2,9 @@
 # platform :ios, '6.0'
 
 target 'IlliniSignInDemo' do
-  pod 'GooglePlus-iOS-SDK'
+  pod 'google-plus-ios-sdk'
 end
 
 target 'IlliniSignInDemoTests' do
-  pod 'GooglePlus-iOS-SDK'
 end
 
